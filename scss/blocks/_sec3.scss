@@ -1,0 +1,44 @@
+h2 {
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 143%;
+  text-align: center;
+  color: #0b132a;
+}
+p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 187%;
+  text-align: center;
+  color: #4f5665;
+}
+.cards {
+  .card {
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    width: 330px;
+    height: 760px;
+    background: $primary-color;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 79px;
+    padding-bottom: 30px;
+  }
+  h3{
+    margin-top: 30px;
+    margin-bottom: 30px;
+          
+  }
+  ul{
+    li{
+      p{
+        text-align: left;
+      }
+      @extend %list;
+
+    }
+    width: 200px;
+
+  }
+}
